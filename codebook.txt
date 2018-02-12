@@ -1,0 +1,114 @@
+Mydataset
+
+The data for this dataset is colected from :
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+For detailed information visit http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
+The dataset is the product of the script “run_analysis.R “.
+For detail how the data are processed, see readme file and the comments in the script.
+
+The dimension of the table is 180 observations, 88 variables: for each idvolunteer-activity
+pair (30 subjects * 6 activities = 180 observations in total)
+
+1. idvolunteer
+ID number of volunteer. 
+	Between 1 and 30
+
+
+2. activity
+activity of the volunteer during measuremen: 
+	Laying,
+	Sitting, 
+	Standing,
+	Walking,
+	Walking downstairs, 
+	walking upstairs
+
+3-88 mean of the  (
+
+3. timebodyacc.mean...x
+4. timebodyacc.mean...y
+5. timebodyacc.mean...z
+6. timegravityacc.mean...x
+7. timegravityacc.mean...y
+8. timegravityacc.mean...z
+9. timebodyaccjerk.mean...x
+10. timebodyaccjerk.mean...y
+11. timebodyaccjerk.mean...z
+12. timebodygyro.mean...x
+13. timebodygyro.mean...y
+14. timebodygyro.mean...z
+15. timebodygyrojerk.mean...x
+16. timebodygyrojerk.mean...y
+17. timebodygyrojerk.mean...z
+18. timebodyaccmag.mean..
+19. timegravityaccmag.mean..
+20. timebodyaccjerkmag.mean..
+21. timebodygyromag.mean..
+22. timebodygyrojerkmag.mean..
+23. freqbodyacc.mean...x
+24. freqbodyacc.mean...y
+25. freqbodyacc.mean...z
+26. freqbodyacc.meanfreq...x
+27. freqbodyacc.meanfreq...y
+28. freqbodyacc.meanfreq...z
+29. freqbodyaccjerk.mean...x
+30. freqbodyaccjerk.mean...y
+31. freqbodyaccjerk.mean...z
+32. freqbodyaccjerk.meanfreq...x
+33. freqbodyaccjerk.meanfreq...y
+34. freqbodyaccjerk.meanfreq...z
+35. freqbodygyro.mean...x
+36. freqbodygyro.mean...y
+37. freqbodygyro.mean...z
+38. freqbodygyro.meanfreq...x
+39. freqbodygyro.meanfreq...y
+40. freqbodygyro.meanfreq...z
+41. freqbodyaccmag.mean..
+42. freqbodyaccmag.meanfreq..
+43. freqbodybodyaccjerkmag.mean..
+44. freqbodybodyaccjerkmag.meanfreq..
+45. freqbodybodygyromag.mean..
+46. freqbodybodygyromag.meanfreq..
+47. freqbodybodygyrojerkmag.mean..
+48. freqbodybodygyrojerkmag.meanfreq..
+49. angle.tbodyaccmean.gravity.
+50. angle.tbodyaccjerkmean..gravitymean.
+51. angle.tbodygyromean.gravitymean.
+52. angle.tbodygyrojerkmean.gravitymean.
+53. angle.x.gravitymean.
+54. angle.y.gravitymean.                
+55. angle.z.gravitymean.
+56. timebodyacc.std...x 
+57. timebodyacc.std...y
+58. timebodyacc.std...z
+59. timegravityacc.std...x
+60. timegravityacc.std...y
+61. timegravityacc.std...z
+62. timebodyaccjerk.std...x
+63. timebodyaccjerk.std...y
+64. timebodyaccjerk.std...z
+65. timebodygyro.std...x
+66. timebodygyro.std...y
+67. timebodygyro.std...z
+68. timebodygyrojerk.std...x
+69. timebodygyrojerk.std...y
+70. timebodygyrojerk.std...z
+71. timebodyaccmag.std..
+72. timegravityaccmag.std..
+73. timebodyaccjerkmag.std..
+74. timebodygyromag.std..
+75. timebodygyrojerkmag.std..
+76. freqbodyacc.std...x
+77. freqbodyacc.std...y
+78. freqbodyacc.std...z
+79. freqbodyaccjerk.std...x
+80. freqbodyaccjerk.std...y
+81. freqbodyaccjerk.std...z
+82. freqbodygyro.std...x
+83. freqbodygyro.std...y
+84. freqbodygyro.std...z
+85. freqbodyaccmag.std..
+86. freqbodybodyaccjerkmag.std..
+87. freqbodybodygyromag.std..
+88. freqbodybodygyrojerkmag.std..
+
